@@ -16,7 +16,7 @@ body{
 
 /* HEADER */
 header{
-    background: linear-gradient(135deg, #1d1b97 0%, #b65b5b 100%);
+    background: linear-gradient(135deg, #1ac55b 0%, #b65b5b 100%);
     color: white;
     padding: 2.5rem 0;
     position: sticky;
@@ -72,7 +72,7 @@ header{
     color: #2ac216;
 }
 
-/* BOTÓN */
+
 .cta-button{
     margin-top: 10px;
     background: #ffffff;
@@ -83,9 +83,9 @@ header{
     cursor: pointer;
 }
 
-/* SECCIÓN DEPORTES */
+
 .sports{
-    padding: 80px 20px 60px; /* 👈 MÁS ESPACIO ARRIBA */
+    padding: 80px 20px 60px; 
     text-align: center;
 }
 
@@ -100,24 +100,24 @@ header{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px; /* 👈 MÁS AIRE ENTRE CARDS */
+    gap: 30px;
 }
 
-/* CARDS */
+
 .card{
     background: white;
-    padding: 0 0 25px; /* 👈 quitamos choque arriba */
+    padding: 0 0 25px; 
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     transition: transform 0.3s ease;
-    overflow: hidden; /* 👈 CLAVE para que no se “suba” */
+    overflow: hidden; 
 }
 
 .card:hover{
     transform: translateY(-10px);
 }
 
-/* TITULO DE CARD (ARREGLADO) */
+
 .card h3{
     margin: 0;
     padding: 15px;
@@ -125,12 +125,12 @@ header{
     font-weight: bold;
 }
 
-/* CONTENIDO */
+
 .card p{
     padding: 0 20px;
 }
 
-/* COLORES */
+
 .football h3{
     background: linear-gradient(90deg,#1abc9c,#2ecc71);
 }
@@ -155,7 +155,7 @@ header{
     background: linear-gradient(90deg,#11e411,#2c3e50);
 }
 
-/* STATS */
+
 .stats{
     background: linear-gradient(135deg, #6a5acd, #1ab415);
     color: white;
@@ -176,7 +176,7 @@ header{
     margin: 15px;
 }
 
-/* NOTICIAS */
+
 .news{
     padding: 60px 20px;
     max-width: 1200px;
@@ -210,7 +210,7 @@ header{
     color: #30b830;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px){
 
     .nav-link{
