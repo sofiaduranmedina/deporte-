@@ -14,7 +14,6 @@ body{
     line-height: 1.6;
 }
 
-/* HEADER */
 header{
     background: linear-gradient(135deg, #1ac55b 0%, #b65b5b 100%);
     color: white;
@@ -52,7 +51,7 @@ header{
     margin-top: 5px;
 }
 
-/* MENU */
+
 .nav-link{
     list-style: none;
     display: flex;
@@ -69,7 +68,7 @@ header{
 }
 
 .nav-link a:hover{
-    color: #2ac216;
+    color: #0a3604;
 }
 
 
